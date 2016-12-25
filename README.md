@@ -4,7 +4,7 @@
 
 ## Build and run
 1. `make riscv-poky-new`: Create working directory and clone from [riscv-poky Github Repo](https://github.com/riscv/riscv-poky)
-2. `cd working/riscv-poky; source oe-init-build-env; cd ../..`
+2. `cd working/riscv-poky; source oe-init-build-env; cd ../../..`
 3. `make riscv-poky-build`: Run bitbake to build.
 4. `make riscv-poky-run`: Run qemu.
 
