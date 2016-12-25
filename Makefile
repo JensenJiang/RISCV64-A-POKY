@@ -9,8 +9,14 @@ riscv-poky-new:
 	@cd $(DIR_WORKING);			\
 		git clone $(POKY_REPO);
 
-riscv-poky-make:
+riscv-poky-build:
 	@echo "Run bitbake, it may take up to 4 hours ..."
 	@cd $(DIR_WORKING)/riscv-poky;	\
 		source oe-init-build-env;	\
 		bitbake core-image-riscv;
+
+riscv-poky-run:
+	@echo "Run qemu ..."
+	@cd $(DIR_WORKING)/riscv-poky;	\
+		source oe-init-build-env;	\
+		runqemu qemuriscv64 nographic slirp;
