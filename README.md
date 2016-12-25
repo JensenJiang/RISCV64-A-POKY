@@ -10,3 +10,4 @@
 # Report
 - [About POKY](https://github.com/JensenJiang/RISCV64-A-POKY/wiki/About-POKY): A brief introduction to how POKY works.
 - [About BitBake](https://github.com/JensenJiang/RISCV64-A-POKY/wiki/About-BitBake): Introduction to BitBake.
+- [Presentation PDF](http://oa15t098u.bkt.clouddn.com/document/presentation/riscv-poky.pdf)
